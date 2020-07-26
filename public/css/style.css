@@ -1,0 +1,690 @@
+/* ================== 1,Reset Css ================== */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: white !important;
+    text-decoration: line-through;
+    background-color: transparent;
+}
+
+
+/* ================== 2,Header ================== */
+
+.header {
+    height: 90px;
+    background-color: #212529;
+    padding: 0 30px;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+}
+
+.header .header__logo {
+    line-height: 90px;
+}
+
+.header .header__logo img {
+    width: 50px;
+    height: 57px;
+}
+
+.header .header__menu {
+    float: right;
+    line-height: 90px;
+}
+
+.header .header__menu a {
+    font-size: inherit;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header .header__menu a svg:hover {
+    font-size: inherit;
+    background-color: #20c997;
+    color: white;
+    font-weight: 500;
+}
+
+.header .header__menu a:hover svg {
+    font-size: inherit;
+    background-color: #20c997;
+    color: white;
+    font-weight: 500;
+}
+
+.header .header__menu a svg {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+}
+
+
+/* ================== 3,Banner ================== */
+
+.banner {
+    width: 100%;
+    height: 650px;
+}
+
+.banner-img {
+    height: 850px !important;
+}
+
+.banner .item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner .item .item-text {
+    position: absolute;
+    left: 200px;
+}
+
+.banner .item .item-text h1 {
+    font-family: 'Poppins';
+    font-size: 76.8px;
+    font-weight: 800;
+    color: white;
+}
+
+.banner .item .item-text p {
+    font-family: "Fjalla One";
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.item-text1 {
+    position: absolute;
+    right: 76px;
+}
+
+.banner .item .item-text1 h1 {
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 9px 3px 12px white;
+    opacity: 0.8;
+}
+
+.banner .item .item-text1 p {
+    font-family: "Fjalla One";
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* ================== 4,experiences ================== */
+
+.experiences {
+    color: #ffffff;
+    background-color: #161619;
+    margin-top: 200px;
+    padding: 88px 0 0;
+    height: 650px;
+}
+
+.experiences .experiences-left {
+    padding-right: 60px;
+}
+
+.experiences .experiences-left h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 86px;
+}
+
+.experiences .experiences-left p {
+    width: 26%;
+    font-size: 17px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #20c997;
+}
+
+.experiences .experiences-right {
+    margin-top: 12px;
+    padding-left: 60px;
+}
+
+.experiences .experiences-right p {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.experiences .experiences-right h3 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 19px;
+    line-height: 19px;
+    line-height: 29px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.experiences .experiences-right span {
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.experiences .experiences-right .experiences-right__number {
+    display: flex;
+}
+
+.experiences .experiences-right .experiences-right__number h1 {
+    font-size: 120px;
+    font-weight: 400;
+    color: white;
+}
+
+.experiences .experiences-right .experiences-right__number p {
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.over {
+    transform: translateY(17%);
+}
+
+
+/* ================== 4,slider ================== */
+
+.slider {
+    color: #ffffff;
+    background-color: #222327;
+    width: 100%;
+    z-index: -1;
+}
+
+.slider h1 {
+    font-size: 77px;
+    font-weight: 600;
+    text-align: center;
+    padding: 500px 0 50px;
+    font-family: "Fjalla One", sans-serif;
+    letter-spacing: 2px;
+}
+
+.slider .item p {
+    bottom: 15px;
+    position: absolute;
+    z-index: 10000;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    transition: all 0.3 ease-in-out;
+}
+
+
+/* ================== 4,able ================== */
+
+.able-item1 {
+    background-color: #161619;
+    padding: 50px 0 70px;
+}
+
+.item-line {
+    padding-bottom: 30px;
+}
+
+.sppb-column {
+    width: 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#sppb-addon-1568165333671 {
+    transition: .3s;
+}
+
+.t-feature {
+    padding: 0 25px 30px 0;
+    background: inherit;
+    background-size: 0;
+    overflow: hidden;
+}
+
+.t-feature,
+.t-feature>* {
+    position: relative;
+    z-index: 1;
+}
+
+.t-feature>* {
+    background-color: inherit;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.t-feature:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    background-size: 10px;
+    width: 50%;
+    height: 50%;
+}
+
+.t-feature,
+.t-feature>* {
+    position: relative;
+    z-index: 1;
+}
+
+.sppb-text-center {
+    text-align: center;
+}
+
+.t-feature:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-width: 500px;
+    border-style: solid;
+}
+
+.t-feature,
+.t-feature:before {
+    border-color: inherit;
+}
+
+#sppb-addon-1568165333671 {
+    background-color: #161619;
+    background-image: url(https://raw.githubusercontent.com/saihoai/jtourog/master/dot-pattern.png);
+    background-repeat: repeat-all;
+    background-size: inherit;
+    background-attachment: inherit;
+    background-position: 0 0;
+    box-shadow: 0 0 0 0 #ffffff;
+    border-color: #222327;
+    border-style: none;
+}
+
+.sppb-column,
+.sppb-column-addons {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+#sppb-addon-wrapper-1568165333671 {
+    margin: 0px 0px 30px 0px;
+}
+
+.able-item {
+    background-color: #161619;
+    padding: 50px 0 50px;
+    transition: 0.3s;
+}
+
+.sppb-media-content {
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+
+.sppb-media-content1 {
+    text-align: center;
+    padding: 0px 0px 70px 0px;
+}
+
+.sppb-img-container img {
+    width: 69px;
+    height: 75px;
+}
+
+.sppb-addon-title {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    line-height: 19px;
+    font-weight: 600;
+}
+
+.sppb-addon-text {
+    font-weight: 300;
+}
+
+
+/* ================== 5,Peoble ================== */
+
+.peoble {
+    height: auto;
+    background-color: #222327;
+    color: white;
+    padding: 120px 50px 90px;
+}
+
+.peoble .peoble-item:hover {
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.peoble .peoble-item img {
+    height: 697px;
+    width: 560px;
+}
+
+.peoble .peoble-item h1 {
+    margin: 30px 0 5px;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+}
+
+.peoble .peoble-item p {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#peoble-item {
+    margin-top: 100px;
+}
+
+.addon {
+    padding: 150px 0 120px;
+    height: auto;
+}
+
+.addon .addon-title h1 {
+    font-size: 66px;
+    font-weight: 700;
+    letter-spacing: -5px;
+    line-height: 100px;
+}
+
+.addon .addon-table__tr {
+    border: 1px solid #ccc;
+}
+
+.addon .addon-table__td {
+    border-right: 1px solid #ccc;
+    padding: 30px 30px;
+}
+
+.addon .addon-table__td img {
+    width: 130px;
+    height: 39px;
+}
+
+.footer {
+    height: 750px;
+    background-color: #222327;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-image: url(../image/footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: 50% 0;
+}
+
+.footer-full {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 100px 0;
+}
+
+.footer-full .footer-full__left {
+    text-align: left;
+}
+
+.footer-full .footer-full__left h2 {
+    font-size: 39px;
+    font-weight: 500;
+    height: 47px;
+    line-height: 47px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.footer-full__left {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-full p {
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-size: 78px;
+    font-weight: 300;
+    height: 200px;
+    line-height: 100px;
+}
+
+.footer-full span {
+    border-bottom-color: rgb(117, 218, 180);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(117, 218, 180);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-color: rgb(117, 218, 180);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgb(117, 218, 180);
+    border-top-style: solid;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.footer .footer__botton {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    height: 140px;
+}
+
+.sppb-icons-group-list {
+    list-style-type: none;
+}
+
+.sppb-text-center1 {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .header .header__menu a svg {
+        width: 28px;
+        height: 28px;
+    }
+    .banner-img {
+        height: 550px !important;
+    }
+    .banner .item .item-text h1 {
+        display: none;
+    }
+    .banner .item .item-text p {
+        display: none;
+    }
+    .banner .item .item-text1 h1 {
+        font-family: 'Poppins';
+        font-size: 40px;
+        font-weight: 800;
+        color: white;
+        text-shadow: 9px 3px 12px white;
+        opacity: 0.8;
+    }
+    .footer-full__left {
+        display: flex;
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer .footer__botton {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        /* align-items: center; */
+        height: 71px;
+    }
+    .footer-full p {
+        color: rgba(255, 255, 255, 0.7);
+        display: block;
+        font-family: Poppins, sans-serif;
+        font-size: 27px;
+        font-weight: 300;
+        height: 124px;
+        line-height: 2;
+    }
+    .experiences {
+        margin-top: -100px;
+        height: 750px;
+    }
+    .experiences .experiences-left h1 {
+        font-size: 30px;
+        line-height: 53px;
+        margin-bottom: 50px;
+    }
+    .experiences .experiences-right {
+        padding-left: 0;
+    }
+    .slider h1 {
+        font-size: 43px;
+        font-weight: 600;
+        text-align: center;
+        padding: 150px 0 50px;
+        font-family: "Fjalla One", sans-serif;
+        letter-spacing: 2px;
+    }
+    .peoble .peoble-item img {
+        height: 333px;
+        width: 100%;
+    }
+    .addon .addon-title h1 {
+        font-size: 45px;
+        font-weight: 700;
+        letter-spacing: -5px;
+        text-align: center;
+    }
+    .footer-full .footer-full__left h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-full .footer-full__left p {
+        font-size: 21px;
+        height: 75px;
+        line-height: 2;
+        text-align: center;
+    }
+    .footer-full .footer-full__left span {
+        margin: 0 25px;
+    }
+    .footer {
+        height: 641px;
+    }
+    .footer .footer__botton span a {
+        color: white;
+    }
+    .addon .addon-table__tr {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .peoble {
+        height: auto;
+        background-color: #222327;
+        color: white;
+        padding: 120px 110px 90px;
+    }
+    .addon-title {
+        text-align: center;
+    }
+    .footer-full__left {
+        display: flex;
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer .footer__botton {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        /* align-items: center; */
+        height: 71px;
+    }
+    .footer-full p {
+        color: rgba(255, 255, 255, 0.7);
+        display: block;
+        font-family: Poppins, sans-serif;
+        font-size: 27px;
+        font-weight: 300;
+        height: 124px;
+        line-height: 2;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .peoble .peoble-item img {
+        height: 330px;
+        width: 100%;
+    }
+    .addon .addon-title h1 {
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: -5px;
+        line-height: 53px;
+    }
+    .addon .addon-table__td {
+        border-right: 1px solid #ccc;
+        padding: 15px 0px;
+    }
+}
